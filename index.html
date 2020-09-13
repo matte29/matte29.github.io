@@ -3,78 +3,266 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Matthew's Portfolio</title>
-        <link rel="stylesheet" href="main.css" />
-        <link
-            rel="stylesheet"
-            href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
-        />
+        <title>Matthew Ellis</title>
+        <link rel="stylesheet" href="public/css/main.css" />
+        <link rel="stylesheet" href="public/css/footer.css" />
+        <link rel="stylesheet" href="public/css/content.css" />
+        <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+        <link rel="stylesheet" href="public/fontawesome-free-5.14.0-web/css/all.css" />
+        
     </head>
     <body>
-        <header class="main-header">
-            <nav class="main-header__nav">
-                <ul class="main-header__item-list">
-                    <li class="main-header__item">
-                        <a class="active" href="/home">Home</a>
-                    </li>
-                    <li class="main-header__item">
-                        <a href="/about">About</a>
-                    </li>
-                    <li class="main-header__item">
-                        <a href="/projects">Projects</a>
-                    </li>
-                    <li class="main-header__item">
-                        <a href="/contact">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <h1>Home Page</h1>
+        <div class="container">
 
-        <footer class="footer-distributed">
-            <div class="footer-left">
-                <h3>Matthew Ellis's Portfolio</h3>
-
-                <p class="footer-links">
-                    <a href="/home">Home</a>
-                    ·
-                    <a href="/about">About</a>
-                    ·
-                    <a href="projects">Projects</a>
-                    ·
-                    <a href="/contact">Contact</a>
-                </p>
+            <div id="carousel">
+                <div class="carousel-item-spacer">
+                            <p>This is not the spacer you are looking for.</p>
+                </div>
+                <div class="carousel-item">
+                    <div class="left">
+                        <ul>
+                            <li class="top-left-title">Things I like to do</li>
+                            <li>Cooking</li>
+                            <li>Baking (Bread's) </li>
+                            <li>Basketball (NBA)</li>
+                            <li class="top-left-title">Video Games</li>
+                            <li>Strategy Games</li>
+                            <li>Tactical Shooters</li>
+                            <li>Board Games</li>
+                        </ul>
+                    </div> 
+                    <div class="center">
+                        <h2>About Me</h2>
+                        <p>Matt</p>
+                    </div>
+                    <div class="right">
+                        <div class="dev-icons">
+                            <div class="first-row">
+                                <i class="fab fa-git-alt tooltip-right">
+                                    <span class="tooltiptext-right">Git</span>
+                                </i>
+                            </div>
+                            <div class="second-row">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="left">
+                        <p>I spent my 2020 summer at home learning backend web development.  I started by learning the basics of Node.Js development. Learning about the concepts of the web.  I then learned the Node framework ExpressJs and Nest.js which builds off of Express.</p>
+                    </div>
+                    <div class="center">
+                        <h2>Backend Web Dev</h2>
+                        <p>What I've worked with.</p>
+                        <p>
+                            
+                        </p>
+                    </div>
+                    <div class="right">
+                        <div class="dev-icons footer-icons">
+                            <div class="first-row">
+                                <i class="fab fa-js tooltip-right">
+                                    <span class="tooltiptext-right">Javascript</span>
+                                </i>
+                                <i class="tooltip-left">
+                                    TS
+                                    <span class="tooltiptext-left">Typescript</span>
+                                </i>
+                            </div>
+                            <div class="second-row">
+                                <i class="fab fa-node-js tooltip-right">
+                                    <span class="tooltiptext-right">Node Js</span>
+                                </i>
+                                <i class="fas fa-database tooltip-right">
+                                    <span class="tooltiptext-right">MongoDB</span>
+                                </i>
+                                <i class="fas fa-database tooltip-left">
+                                    <span class="tooltiptext-left">Postgre SQL</span>
+                                </i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="left">
+                        <p>I have had some experience using html and css to create basic static web pages.  Summer 2020 I learned React, React Native, and a bit of Kotlin for Android development. 
+                            foodsy.org is a recipe site I created using React and the Ionic framework for a better mobile experience 
+                            (The desktop browser version still needs work with controlling the image on the cards).</p>
+                    </div>
+                    <div class="center">
+                        <h2>Frontend Web Dev</h2>
+                        <p>What I've worked with</p>
+                        <img class="project-img" src="./public/assets/2020-08-31 15_39_45-Foodsy - Brave.png" alt="">
+                    </div>
+                    <div class="right">
+                        <div class="dev-icons">
+                            <div class="first-row">
+                                <i class="fab fa-react tooltip-right">
+                                    <span class="tooltiptext-right">React Js</span>
+                                </i>
+                                <i class="fas fa-atom tooltip-right">
+                                    <span class="tooltiptext-right">React Native</span>
+                                </i>
+                                <i class="fab fa-java tooltip-left">
+                                    <span class="tooltiptext-left">Java / Kotlin</span>
+                                </i>
+                            </div>
+                            <div class="second-row">
+                                <i class="fab fa-html5 tooltip-right">
+                                    <span class="tooltiptext-right">HTML</span>
+                                </i>
+                                <i class="fab fa-css3 tooltip-left">
+                                    <span class="tooltiptext-left">CSS</span>
+                                </i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    
+                    <div class="center">
+                        <h2>Detailed List</h2>
+                        <p>of Tech I have worked with</p>
+                        <a href="tech.html">Detailed List</a>
+                    </div>
+        
+                </div>
+                <div class="carousel-item-spacer">
+                    <p>This is a spacer</p>
+                </div>
             </div>
 
-            <div class="footer-center">
-                <div>
-                    <i class="fa fa-phone"></i>
-                    <p>+1 585-797-9750</p>
+        
+            <div id="carousel-mobile">
+                <div class="carousel-item-mob">
+                    <div class="center">
+                        <h2>About me</h2>
+                        <p>Matt</p>
+                        <div class="about-mobile">
+                            <ul>
+                                <li class="top-left-title">Things I like to do</li>
+                                <li>Cooking</li>
+                                <li>Baking (Bread's) </li>
+                                <li>Basketball (NBA)</li>
+                                <li class="top-left-title">Video Games</li>
+                                <li>Strategy Games</li>
+                                <li>Tactical Shooters</li>
+                                <li>Board Games</li>
+                            </ul>
+                        </div>
+                        <div class="technologies-mobile">
+                            <div class="dev-icons">
+                                <div class="first-row">
+                                    <i class="fab fa-git-alt tooltip-right">
+                                        <span class="tooltiptext-right">Git</span>
+                                    </i>
+                                </div>
+                                <div class="second-row">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <div>
-                    <i class="fa fa-envelope"></i>
-                    <p>
-                        <a>matthewaellis29@gmail.com</a>
-                    </p>
+                <div class="carousel-item-mob">
+                    <div class="center">
+                        <h2>Backend Web Dev</h2>
+                        <p>What I've worked with.</p>
+                        <div class="about-mobile">
+                            <p>I spent my 2020 summer at home learning backend web development.  I started by learning the basics of Node.Js development. Learning about the concepts of the web.  I then learned the Node framework ExpressJs.</p>
+                        </div>
+                        <div class="technologies-mobile">
+                            <div class="dev-icons">
+                                <div class="first-row">
+                                    <i class="fab fa-js tooltip-right">
+                                        <span class="tooltiptext-right">Javascript</span>
+                                    </i>
+                                    <i class="tooltip-left">
+                                        TS
+                                        <span class="tooltiptext-left">Typescript</span>
+                                    </i>
+                                </div>
+                                <div class="second-row">
+                                    <i class="fab fa-node-js tooltip-right">
+                                        <span class="tooltiptext-right">Node Js</span>
+                                    </i>
+                                    <i class="fas fa-database tooltip-right">
+                                        <span class="tooltiptext-right">MongoDB</span>
+                                    </i>
+                                    <i class="fas fa-database tooltip-left">
+                                        <span class="tooltiptext-left">Postgre SQL</span>
+                                    </i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item-mob">
+                    <div class="center">
+                        <h2>Frontend Web Dev</h2>
+                        <p>What I've learned</p>
+                        <div class="about-mobile">
+                            <p>I have had some experience using html and css to create basic static web pages.  Summer 2020 I learned React, React Native, and a bit of Kotlin for Android development. 
+                               foodsy.org is a recipe site I created using React and the Ionic framework for a better mobile experience 
+                               (The desktop browser version still needs work with controlling the image on the cards).</p>
+                        </div>
+                        <div class="technologies-mobile">
+                            <div class="dev-icons">
+                                <div class="first-row">
+                                    <i class="fab fa-react tooltip-right">
+                                        <span class="tooltiptext-right">React Js</span>
+                                    </i>
+                                    <i class="fas fa-atom tooltip-right">
+                                        <span class="tooltiptext-right">React Native</span>
+                                    </i>
+                                    <i class="fab fa-java tooltip-left">
+                                        <span class="tooltiptext-left">Java / Kotlin</span>
+                                    </i>
+                                </div>
+                                <div class="second-row">
+                                    <i class="fab fa-html5 tooltip-right">
+                                        <span class="tooltiptext-right">HTML</span>
+                                    </i>
+                                    <i class="fab fa-css3 tooltip-left">
+                                        <span class="tooltiptext-left">CSS</span>
+                                    </i>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="carousel-item-mob">
+                    <div class="center">
+                        <h2>Detailed List</h2>
+                        <p>of Tech I have worked with</p>
+                        <a href="tech.html">Detailed List</a>                        
+                    </div>  
                 </div>
             </div>
+        <footer class="bottom">
+            <h3>Matthew Ellis</h3>
 
-            <div class="footer-right">
-                <p class="footer-about">
-                    I am a CS major at Ohio University headed into my senior
-                    year.
-                </p>
-
-                <div class="footer-icons">
-                    <a href="https://www.linkedin.com/in/matte29"
-                        ><i class="fa fa-linkedin"></i
-                    ></a>
-                    <a href="https://github.com/matte29"
-                        ><i class="fa fa-github"></i
-                    ></a>
-                </div>
+            <div class="footer-items">
+                <i class="fa fa-phone"> +1 585-797-9750</i>
+            </div>
+            <div class="footer-items">
+                <i class="fa fa-envelope"> matthewaellis29@gmail.com</i>
+            </div>
+    
+            <div class="footer-icons footer-icons-color" color="blue">
+                <a href="https://www.linkedin.com/in/matte29">
+                    <i class="fab fa-linkedin fa-3x"></i>
+                </a>
+                <span class="footer-spacer"></span>
+                <a href="https://github.com/matte29"
+                    ><i class="fab fa-github fa-3x"></i
+                ></a>
             </div>
         </footer>
+
+        <script src="public/js/main.js"></script>
     </body>
 </html>

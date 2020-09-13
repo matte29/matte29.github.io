@@ -1,0 +1,41 @@
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+.footer-items {
+    margin-top: 5px;
+}
+
+.footer-icons {
+    margin-top: 10px;
+}
+
+.footer-spacer {
+    margin-right: 1rem;
+}
+
+.bottom {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 3vw;
+    color: white;
+}
+
+.footer-icons-color i {
+    color: white !important;
+}
+
+@media screen and (max-width: 600px) {
+    .bottom {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #12151a;
+        color: white;
+        height: 10.5rem;
+    }
+}
